@@ -25,7 +25,7 @@ fn main() {
 
     let x = args.ytid;
 
-    let dl = submit_and_download(x.to_string(), "couldntbemoreinlove".to_string());
+    let dl = submit_and_download(x.to_string(), "song".to_string());
 
     let mut file = std::fs::File::create("./".to_owned() + &x.clone() + ".zip").unwrap();
 
